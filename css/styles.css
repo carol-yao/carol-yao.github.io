@@ -4,6 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+* {
+  font-family: "Avenir", "Hind", "Lato", sans-serif;
+}
+
+.navbar-default, .navbar-default .navbar-header .navbar-brand, h1, h2, h3, h4, h5, h6 {
+  font-family: "Avenir", "Hind", "Lato", sans-serif;
+}
 .row {
   margin: 56px 24px; // change this to less when responsive
 }
@@ -29,6 +36,10 @@ i {
   color: white;
 }
 
+i:hover, i:active, i:focus {
+  color: white;
+}
+
 .btn-primary, .btn-primary:active, .btn-primary:focus {
   color: #E91E63;
   border: 2px solid #E91E63;
@@ -38,6 +49,15 @@ i {
   margin-right: 16px;
   border-radius: 4px;
 
+}
+
+a {
+  color: #E91E63;
+}
+a:hover {
+  color: #E91E63;
+  opacity: 0.6;
+  text-decoration: none;
 }
 
 .btn-primary:hover {
@@ -80,11 +100,6 @@ i {
   margin: 0 16px 24px;
 }
 
-.intro i:hover {
-  color: #E91E63;
-  opacity: 0.8;
-}
-
 .arrows-div {
   margin-top: 6em;
 }
@@ -113,9 +128,9 @@ i {
   margin-top: 16px;
 }
 #about {
-  background-image: url("../img/about.png");
-  background-size: cover;
+  font-size: 16px;
   margin: 0;
+  line-height: 28px;
   padding: 88px 0;
 }
 
@@ -209,8 +224,14 @@ header {
   color: #E91E63!important;
 }
 
-footer a:hover, footer a:active, footer a:focus {
-  color: #E91E63;
+footer {
+  background-color: white;
+  color: black;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+footer > div > p {
+  font-size: 14px;
 }
 
 .navbar-default.affix .navbar-header .navbar-brand:hover {

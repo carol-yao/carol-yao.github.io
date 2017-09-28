@@ -216,3 +216,15 @@ footer a:hover, footer a:active, footer a:focus {
 .navbar-default.affix .navbar-header .navbar-brand:hover {
   color: #E91E63;
 }
+
+i.non-link-icons {
+  padding: 0;
+  color: #9E9E9E;
+}
+
+i.non-link-icons:hover,
+i.non-link-icons:active,
+i.non-link-icons:focus {
+  color: #9E9E9E;
+  cursor: default;
+}

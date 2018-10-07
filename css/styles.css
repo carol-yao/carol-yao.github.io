@@ -1,241 +1,118 @@
-/*!
- * Start Bootstrap - 1 Col Portfolio (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
+/* GLOBAL STYLES */
 * {
-  font-family: "Avenir", "Hind", "Lato", sans-serif;
-}
-
-.navbar-default, .navbar-default .navbar-header .navbar-brand, h1, h2, h3, h4, h5, h6 {
-  font-family: "Avenir", "Hind", "Lato", sans-serif;
-}
-.row {
-  margin: 56px 24px; // change this to less when responsive
-}
-
-.titles {
-  text-align: center;
-  margin: 16px 0;
-}
-
-p {
-  line-height: 30px;
-  font-size: 16px;
-}
-
-.divider {
-  width: 94%;
-  height: 1px;
-  background-color: rgba(0,0,0,0.1);
-  margin: 124px auto;
-}
-
-i {
-  color: white;
-}
-
-i:hover, i:active, i:focus {
-  color: white;
-}
-
-.btn-primary, .btn-primary:active, .btn-primary:focus {
-  color: #E91E63;
-  border: 2px solid #E91E63;
-  background-color: white;
-  font-size: 12px;
-  padding: 8px 16px;
-  margin-right: 16px;
-  border-radius: 4px;
-
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #212121;
+  font-weight: lighter;
+  font-size: 1em;
+  color: #212121;
 }
 
 a {
-  color: #E91E63;
+  color: #FF1744;
 }
-a:hover {
-  color: #E91E63;
-  opacity: 0.6;
+a:hover, a:active, a:focus {
   text-decoration: none;
+  color: #FFDE03;
+  outline: none;
 }
 
-.btn-primary:hover {
-  background-color: #E91E63;
-  color: white;
-  border: 2px solid #E91E63;
+.container-fluid.main-body {
+  padding: 0;
 }
 
-.intro {
-  margin-top: 15%; // change to responsive
+#name-logo {
+  line-height: 50px;
 }
-
-.intro h1 {
-  margin-bottom: 16px; // change all margins/fonts for responsiveness later
-  opacity: 0.8;
-
-}
-
-.intro h2 {
-  margin-bottom: 36px;
-  margin: 36px auto 56px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  animation: type 5s steps(60, end);
-}
-
-#line{
-  animation: blink 1s infinite;
-}
-
-@keyframes type{
-  from { width: 0px; }
-}
-
-@keyframes blink{
-  to{opacity: .0;}
-}
-.intro i {
-  margin: 0 16px 24px;
-}
-
-.arrows-div {
-  margin-top: 6em;
-}
-
-#arrow-icon {
-  opacity: 0.6;
-  animation: MoveUpDown 2s linear infinite;
-  position: absolute;
-  left: calc(50% - 0.75em);
-}
-
-@keyframes MoveUpDown {
-  0% {
-    bottom: -100px;
-  }
-  50% {
-    bottom: -50px;
-  }
-  100% {
-    bottom: -100px;
-  }
-}
-
-.project p {
-  color: rgba(0,0,0,0.5);
-  margin-top: 16px;
-}
-#about {
-  font-size: 16px;
-  margin: 0;
-  line-height: 28px;
-  padding: 88px 0;
-}
-
-#projects {
-  margin-top: 0;
-}
-.wistem {
-  padding: 0 56px;
-}
-
-header {
-  background: none;
-}
-header {
-  background-color: #e74c3c;
-  animation: bg-color 10s infinite;
-  -webkit-animation: bg-color 10s infinite;
-  background-image: url("../img/overlay.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-@-webkit-keyframes bg-color {
-  0% { background-color: #e74c3c; }
-  20% { background-color: #f1c40f; }
-  40% { background-color: #1abc9c; }
-  60% { background-color: #3498db; }
-  80% { background-color: #9b59b6; }
-  100% { background-color: #e74c3c; }
-}
-@keyframes bg-color {
-  0% { background-color: #e74c3c; }
-  20% { background-color: #f1c40f; }
-  40% { background-color: #1abc9c; }
-  60% { background-color: #3498db; }
-  80% { background-color: #9b59b6; }
-  100% { background-color: #e74c3c; }
-}
-
-@media (max-width: 767px) {
-  #name-logo {
-    color: #E91E63;
-  }
-  .intro h2 {
-    font-size: 20px;
-  }
-  header {
-    background: none;
-  }
-  .wistem {
-    padding: 0;
-  }
-  .divider {
-    margin: 24px auto;
-  }
-  .row {
-    margin: 32px 8px;
-  }
-}
-
-
-@media (max-width: 995px) {
-  .intro {
-    margin-top: 30%;
-  }
-  .intro h2 {
-    animation: none;
-    width: auto;
-  }
-  .arrows-div {
-    display: none;
-  }
-
-  .row {
-    margin: 32px 16px;
-  }
-}
-@media (min-width: 767px) {
-  .project {
-    padding: 0 20px;
-  }
-}
-
-.navbar-default.affix .nav>li>a:hover,
-.navbar-default.affix .nav>li>a:active,
-.navbar-default.affix .nav>li>a:focus{
-  color: #E91E63;
-}
-
-.navbar-default .nav>li.active>a,
-.navbar-default .nav>li.active>a:focus {
-  color: #E91E63!important;
-}
-
-footer {
+.navbar-default {
   background-color: white;
-  color: black;
-  border-top: 1px solid rgba(0,0,0,0.05);
+  border: none;
+  padding: 1em 0;
 }
 
-footer > div > p {
+/* nav bar links */
+.nav-bar-nav {
+  padding: 0 100px; /* change for responsive */
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.nav-bar-list {
+  height: 56px;
+  padding: 0;
+  margin: 0;
+}
+.nav-bar-link {
+  line-height: 56px;
+  display: inline-block;
+  margin: 0 16px;
+  float: right;
+}
+
+.nav-bar-link > a {
+  color: #FF5252;
   font-size: 14px;
 }
 
-.navbar-default.affix .navbar-header .navbar-brand:hover {
-  color: #E91E63;
+.nav-bar-link > a:hover,
+.nav-bar-link  > a:focus,
+.nav-bar-link > a:active {
+  color: #FFDE03;
+  text-decoration: none;
+}
+
+#nav-bar-link-name {
+  float: left;
+  margin: 0 16px 0 0 ;
+}
+
+.very-large-headings {
+  padding: 4px 0;
+  font-size: 72px;
+}
+
+.large-headings {
+  padding: 4px 0;
+  font-weight: lighter;
+}
+
+
+.medium-headings {
+  padding: 0 0 4px;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.medium-text {
+  font-size: 18px;
+  opacity: 0.87;
+  line-height: 26px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.intro-wrapper {
+  padding: 6.5em 100px 2.5em;
+}
+
+.project-section-wrapper {
+  padding: 50px 100px;
+}
+
+i {
+  color: #FF5252;
+  padding-right: 16px;
+}
+
+i:hover,
+i:active,
+i:focus {
+  color: #FFDE03;
+  cursor: pointer;
+  outline: none;
 }
 
 i.non-link-icons {
@@ -248,4 +125,219 @@ i.non-link-icons:active,
 i.non-link-icons:focus {
   color: #9E9E9E;
   cursor: default;
+}
+
+#portfolio-tab-bar {
+  text-align: center;
+  margin: 60px 0;
+  color: grey;
+}
+
+#portfolio-tab-bar .project-tab-bar-link {
+  color: grey;
+}
+
+a.project-tab-bar-current {
+  color: #FF5252;
+  font-weight: bold;
+}
+
+#portfolio-tab-bar .project-tab-bar-link:hover,
+ #portfolio-tab-bar .project-tab-bar-link:active,
+ #portfolio-tab-bar .project-tab-bar-link:focus {
+  color: #FF5252;
+  font-weight: bold;
+}
+
+/* lines up titles with rows*/
+.row {
+  margin: 0;
+}
+
+.project, .design-project, .art-project {
+  border: 20px solid white;
+  padding: 0;
+}
+
+.project-image-wrapper {
+  background: blue;
+}
+
+.project-information {
+  padding: 36px 0;
+}
+
+.project-title {
+  margin: 16px 0 0;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 8px 0 16px;
+  color: black;
+  font-weight: lighter;
+}
+
+/* --------------------------------------------- */
+/* Project Pages */
+
+/* Project Buttons */
+.fa-long-arrow-left {
+  margin: 16px 0 0 56px;
+}
+
+.p-buttons-wrapper {
+  text-align: center;
+}
+
+.p-btn {
+  margin: 4px 4px 0;
+  padding: 4px 16px;
+  border-radius: 100px;
+  background-color: white;
+  border: 1px solid #FF5252;
+  color: #FF5252;
+  font-size: 14px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.p-btn i {
+  color: #FF5252;
+  padding-right: 4px;
+}
+
+.p-btn:hover, .p-btn:focus, .p-btn:active {
+  background-color: #FF5252;
+  outline: none;
+  color: white;
+}
+
+.p-btn:hover i, .p-btn:active i, .p-btn:focus i {
+  color: white;
+}
+
+.p-btn:hover a, .p-btn:active a, .p-btn:focus a {
+  color: white;
+}
+
+
+.p-name {
+  font-size: 28px;
+  text-align: center;
+  margin: 8px 0;
+}
+
+.p-heading {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 24px;
+  opacity: 0.87;
+}
+
+.p-section {
+  padding: 0;
+}
+
+.p-section-heading {
+  font-size: 20px;
+  padding: 24px 0 8px;
+}
+
+.p-section-text {
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 0.87;
+}
+
+.p-section-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 16px auto;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0,0,0,0.56);
+  margin: 16px 0 36px;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.highlight-teal {
+  color: #00BFA5;
+}
+
+.highlight-purple {
+  color: #7C4DFF;
+
+}
+
+.highlight-pink {
+  color: #FF5252;
+  text-decoration: underline;
+}
+
+.highlight-blue {
+  color: #00B0FF;
+}
+
+.highlight-pink:hover {
+  color: #FFDE03;
+}
+
+@media only screen and (max-width : 768px) {
+
+  .project {
+    border: 0;
+  }
+  .project-information {
+    padding: 1em 0 6em 0;
+  }
+
+}
+
+@media only screen and (max-width : 576px) {
+  .intro-wrapper {
+    padding: 6.5em 16px 2.5em; /* change for responsive */
+  }
+
+  .project-section-wrapper {
+    padding: 1em 16px; /* change for responsive */
+  }
+
+  .nav-bar-nav {
+    padding: 0 16px;
+  }
+
+  .nav-bar-link {
+    line-height: 56px;
+    display: inline-block;
+    margin: 0 8px;
+    float: none;
+  }
+
+
+
+  .p-cover-image {
+    margin: 0 16px;
+  }
+
+  .p-section-heading {
+    margin: 0;
+  }
+
+  .p-section-text {
+    margin: 0;
+  }
+
+  .footer-text {
+    margin: 8px 0 16px;
+  }
 }

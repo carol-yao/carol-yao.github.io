@@ -338,6 +338,12 @@ a.project-tab-bar-current {
     padding: 1em 16px; /* change for responsive */
   }
 
+  #portfolio-tab-bar {
+    text-align: center;
+    margin: 80px 0 24px 0;
+    color: grey;
+  }
+
   .nav-bar-nav {
     padding: 0 16px;
   }

@@ -135,11 +135,13 @@ i.non-link-icons:focus {
 
 #portfolio-tab-bar .project-tab-bar-link {
   color: grey;
+  text-decoration: underline;
 }
 
 a.project-tab-bar-current {
   color: #FF5252;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 #portfolio-tab-bar .project-tab-bar-link:hover,
@@ -304,6 +306,30 @@ a.project-tab-bar-current {
 }
 
 @media only screen and (max-width : 576px) {
+
+  .very-large-headings {
+    padding: 4px 0;
+    font-size: 48px;
+  }
+
+  .large-headings {
+    padding: 4px 0;
+    font-weight: lighter;
+    font-size: 32px;
+  }
+
+
+  .medium-headings {
+    padding: 0 0 4px;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .medium-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
   .intro-wrapper {
     padding: 6.5em 16px 2.5em; /* change for responsive */
   }

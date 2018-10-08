@@ -315,7 +315,7 @@ a.project-tab-bar-current {
   .large-headings {
     padding: 4px 0;
     font-weight: lighter;
-    font-size: 32px;
+    font-size: 24px;
   }
 
 
@@ -326,12 +326,12 @@ a.project-tab-bar-current {
   }
 
   .medium-text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
   }
 
   .intro-wrapper {
-    padding: 6.5em 16px 2.5em; /* change for responsive */
+    padding: 4em 16px 2.5em; /* change for responsive */
   }
 
   .project-section-wrapper {

@@ -95,11 +95,11 @@ a:hover, a:active, a:focus {
 }
 
 .intro-wrapper {
-  padding: 6.5em 100px 2.5em;
+  padding: 6.5em 100px 1em;
 }
 
 .project-section-wrapper {
-  padding: 50px 100px;
+  padding: 16px 100px;
 }
 
 i {
@@ -127,13 +127,18 @@ i.non-link-icons:focus {
   cursor: default;
 }
 
-#portfolio-tab-bar {
+.portfolio-tab-bar {
   text-align: center;
-  margin: 60px 0;
+  margin: 8px 0 24px 0;
   color: grey;
 }
 
-#portfolio-tab-bar .project-tab-bar-link {
+#design-tab-bar,
+#art-tab-bar {
+  margin: 56px 0 24px 0;
+}
+
+.portfolio-tab-bar .project-tab-bar-link {
   color: grey;
   text-decoration: underline;
 }
@@ -144,9 +149,9 @@ a.project-tab-bar-current {
   text-decoration: underline;
 }
 
-#portfolio-tab-bar .project-tab-bar-link:hover,
- #portfolio-tab-bar .project-tab-bar-link:active,
- #portfolio-tab-bar .project-tab-bar-link:focus {
+.portfolio-tab-bar .project-tab-bar-link:hover,
+ .portfolio-tab-bar .project-tab-bar-link:active,
+ .portfolio-tab-bar .project-tab-bar-link:focus {
   color: #FF5252;
   font-weight: bold;
 }
@@ -331,16 +336,16 @@ a.project-tab-bar-current {
   }
 
   .intro-wrapper {
-    padding: 4em 16px 2.5em; /* change for responsive */
+    padding: 4em 16px 1em; /* change for responsive */
   }
 
   .project-section-wrapper {
     padding: 1em 16px; /* change for responsive */
   }
 
-  #portfolio-tab-bar {
+  .portfolio-tab-bar {
     text-align: center;
-    margin: 80px 0 24px 0;
+    margin: 8px 0 24px 0;
     color: grey;
   }
 

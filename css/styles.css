@@ -235,7 +235,8 @@ a.project-tab-bar-current {
 
 .design-page-heading {
   font-weight: lighter;
-  padding-bottom: 16px;
+  padding-bottom: 24px;
+  font-size: 28px;
 }
 
 
@@ -286,6 +287,19 @@ a.project-tab-bar-current {
   margin-right:auto;
 }
 
+.about-me-body {
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.about-me-section {
+  padding: 0 88px;
+  margin-top: 88px;
+}
+
+
+
 .portfolio-section {
   margin: 56px 0;
 }
@@ -314,6 +328,9 @@ a.project-tab-bar-current {
 }
 
 .about-heading {
+  padding-top: 88px;
+  font-size: 28px;
+  line-height: 48px;
   font-weight: lighter;
   margin-bottom: 0;
 }
@@ -351,6 +368,31 @@ a.project-tab-bar-current {
   .project-information {
     padding: 1em 0 6em 0;
   }
+
+  /*  index.html */
+  .about-heading {
+    padding-top: 88px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: lighter;
+    margin-bottom: 0;
+  }
+
+
+/*  about.html*/
+
+  .about-me-section {
+    padding: 0 88px;
+    margin-top: 88px;
+  }
+  .about-me-body {
+    width: 80%;
+  }
+
+  .about-me-section {
+    padding: 0 24px;
+    margin-top: 88px;
+  }
 /*
   .about-heading {
     font-weight: lighter;
@@ -378,6 +420,21 @@ a.project-tab-bar-current {
   .medium-text {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  /*  index.html */
+  .about-heading {
+    padding-top: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: lighter;
+    margin-bottom: 0;
+  }
+  /*  about.html*/
+
+  .about-me-section {
+    padding: 0 8px;
+    margin-top: 88px;
   }
     /* .about-description {
       font-size: 14px;
@@ -421,6 +478,33 @@ a.project-tab-bar-current {
   border: 20px solid white;
   border-left: none;
 }
+
+.profile-image {
+  max-width: 170px;
+}
+
+.about-me-description {
+  font-size: 16px;
+}
+
+
+.about-me-heading {
+  font-size: 24px;
+  padding: 8px 0;
+}
+
+.bolder {
+  font-weight: normal;
+}
+
+#design-section-container {
+  margin-top: 64px;
+}
+
+.line {
+  opacity: 0.5;
+}
+
 
 /*
 .case-img {

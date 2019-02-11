@@ -23,11 +23,6 @@ a:hover, a:active, a:focus {
 #name-logo {
   line-height: 50px;
 }
-.navbar-default {
-  background-color: white;
-  border: none;
-  padding: 1em 0;
-}
 
 /* nav bar links */
 .nav-bar-nav {
@@ -36,6 +31,7 @@ a:hover, a:active, a:focus {
   z-index: 1;
   background-color: transparent;
   width: 100%;
+  transition:500ms ease;
 }
 .nav-bar-list {
   display: inline-block;
@@ -505,6 +501,9 @@ a.project-tab-bar-current {
   opacity: 0.5;
 }
 
+.nav-bar-nav.scrolled{
+  background-color: white;
+}
 
 /*
 .case-img {

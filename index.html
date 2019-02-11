@@ -31,6 +31,12 @@
   ga('send', 'pageview');
 
   </script>
+  <script type="text/javascript">
+    $(window).scroll(function(){
+      console.log("Hi");
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    });
+  </script>
 </head>
 
 <!-- <body background="img/bg.png"> -->

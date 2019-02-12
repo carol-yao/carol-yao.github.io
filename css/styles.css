@@ -154,6 +154,7 @@ a.project-tab-bar-current {
 
 .project-information {
   padding: 36px 0;
+  padding-top: 24px;
 }
 
 .project-title {
@@ -263,6 +264,7 @@ a.project-tab-bar-current {
 }
 
 .design-date {
+  margin-top: 0;
   font-size: 16px;
   font-weight: lighter;
   color: #777;
@@ -270,7 +272,7 @@ a.project-tab-bar-current {
 
 .design-row {
   border-bottom: 1px solid #eee;
-  margin: 24px 0;
+  margin: 48px 0;
 }
 
 .container-fluid.case-study {
@@ -577,7 +579,14 @@ a.project-tab-bar-current {
   background-color: white;
 }
 
-
+.tag {
+  background-color: #eee;
+  color: gray;
+  border-radius: 40px;
+  font-size: 11px;
+  display: inline-block;
+  padding: 4px 16px;
+}
 
 /*
 .case-img {

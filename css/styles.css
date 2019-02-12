@@ -236,7 +236,14 @@ a.project-tab-bar-current {
   font-size: 28px;
 }
 
-
+.project-information .tag_case_study {
+  background-color: #eee;
+  color: gray;
+  border-radius: 40px;
+  font-size: 11px;
+  display: inline-block;
+  padding: 4px 16px;
+}
 
 .design-read-study-btn {
   margin: 4px 4px 0;
@@ -575,18 +582,11 @@ a.project-tab-bar-current {
   opacity: 0.5;
 }
 
-.nav-bar-nav.scrolled{
+.nav-bar-nav.scrolled {
   background-color: white;
 }
 
-.tag_case_study {
-  background-color: #eee;
-  color: gray;
-  border-radius: 40px;
-  font-size: 11px;
-  display: inline-block;
-  padding: 4px 16px;
-}
+
 
 /*
 .case-img {

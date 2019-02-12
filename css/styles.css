@@ -283,6 +283,11 @@ a.project-tab-bar-current {
   margin-right:auto;
 }
 
+.case-study {
+  padding-top: 64px;
+  width: 50%;
+}
+
 .about-me-body {
   width: 60%;
   margin-left:auto;
@@ -295,9 +300,8 @@ a.project-tab-bar-current {
 }
 
 
-
 .portfolio-section {
-  margin: 56px 0;
+  margin: 72px 0;
 }
 
 .portfolio-section-heading {
@@ -306,10 +310,36 @@ a.project-tab-bar-current {
   font-weight: lighter;
 }
 
+.portfolio-section-caps-heading {
+  font-size: 14px;
+  color:  #FF1744;
+  letter-spacing: 2px;
+  margin-top: 56px;
+}
+
+.portfolio-section-sub-heading {
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+.portfolio-quote {
+  font-size: 28px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
 .portfolio-section-paragraph {
-  font-size: 16px;
-  font-weight: lighter;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 28px;
+
+}
+.portfolio-list {
+  font-size: 18px;
+}
+
+.portfolio-list-item {
+  padding: 8px 0;
+  line-height: 28px;
 }
 
 .centered-button {
@@ -358,6 +388,13 @@ a.project-tab-bar-current {
 
 @media only screen and (max-width : 768px) {
 
+  .portfolio-section {
+    margin: 56px 0;
+  }
+  .case-study {
+    padding-top: 36px;
+    width: 80%;
+  }
   .project {
     border: 0;
   }
@@ -413,6 +450,41 @@ a.project-tab-bar-current {
 }
 
 @media only screen and (max-width : 576px) {
+  .portfolio-section {
+    margin: 36px 0;
+  }
+
+  .portfolio-section-heading {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: lighter;
+  }
+
+  .portfolio-section-caps-heading {
+    font-size: 12px;
+    color:  #FF1744;
+    letter-spacing: 2px;
+    margin-top: 24px;
+  }
+
+  .portfolio-section-sub-heading {
+    font-size: 20px;
+    margin-bottom: 24px;
+    font-weight: bold;
+  }
+
+  .portfolio-quote {
+    font-size: 16px;
+  }
+  .portfolio-section-paragraph {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .case-study {
+    padding-top: 20px;
+    width: 90%;
+  }
   .medium-text {
     font-size: 16px;
     line-height: 20px;

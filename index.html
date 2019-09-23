@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="img/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
   <title>Carol Yao Portfolio</title>
 
   <!-- external style sheets -->
@@ -48,52 +49,84 @@
   </div>
   <div class="nav-right-home">
     <ul class="nav-bar-list">
-      <li class="nav-bar-link"><a href="index.html">Design</a></li>
-      <li class="nav-bar-link"><a href="code.html">Code</a></li>
-      <li class="nav-bar-link"><a target="_blank" href="resume.pdf">Resume</a></li>
+      <li class="nav-bar-link"><a href="index.html">Work</a></li>
       <li class="nav-bar-link"><a href="about.html">About</a></li>
+      <li class="nav-bar-link"><a target="_blank" href="resume.pdf">Resume</a></li>
+      <li class="nav-bar-link"><a href="fun.html">Fun</a></li>
+
     </ul>
   </div>
 </nav>
   <div class="container-fluid main-body">
     <div class="intro-wrapper">
+      <!-- DESCRIPTION  -->
       <div class="description-main">
-      <h1 class="about-heading">Hi I'm Carol, I study Computer Science and Psychology at UWaterloo. <br>
-        People are at the center of my process, I like to design delightful experiences that solve everyday problems.
-      </h1><br>
+      <h1 class="index-heading">Hi, I’m <b>Carol</b> 👋</h1>
+      <p class="index-description">I’m a <b>product designer</b> studying <b>Computer Science</b> at the University of Waterloo and currently designing at <b>Quora</b>. Previously at Shopify, Wish, Toast and Nvidia.</p>
+      <p class="index-sub-description">Seeking full time opportunities for 2020, see my <a target="_blank" class="link-underline" href="resume.pdf">resume</a> or shoot me an <a class="link-underline" href="mailto:yaocarol96@gmail.com">email</a> if you want to chat ☕</p>
         <div class="links-wrapper">
           <a href="mailto:yaocarol96@gmail.com"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/carolyao/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
           <a href="https://github.com/carol-yao" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-        </div><br><br>
-        <span class="line">_______</span>
+        </div>
       </div>
+      <!-- END OF DESCRIPTION  -->
+
       <div class="project-section-wrapper" id="design-section-container">
 
-        <h1 class="design-page-heading" id="design">Design</h1>
-          <div id="code-container">
+        <h1 class="section-heading" id="work-tab-scroll">Work</h1>
+            <!--  SHOPIFY-->
+               <div onclick="location.href='shopify.html';" class="row design-row">
+                 <div class="col-md-6 project-image-container">
+                   <img class="img-responsive project-image" src="img/shopify-cover.png" alt="">
+                 </div>
+
+                 <div class="col-md-6">
+                   <div class="project-information">
+                     <h3 class="design-date">2019 • Shopify • Internship</h3>
+                     <h1 class="design-title">Platform (App Store Team)</h1>
+                     <h1 class="design-description">Speeding up processes and making them more robust through service design</h1>
+                     <div class="tag_case_study">service design</div><div class="tag_case_study">user research</div><div class="tag_case_study">wireframing</div>
+                     <a href="shopify.html"><button type="button" class="design-read-study-btn">Read Case Study →</button></a>
+                   </div>
+                 </div>
+               </div>
+
+               <!--  TCR -->
+                  <div onclick="location.href='tcr.html';" class="row design-row">
+                    <div class="col-md-6 project-image-container">
+                      <img class="img-responsive project-image" src="img/tcr-cover.png" alt="">
+                    </div>
+
+
+                    <div class="col-md-6">
+                      <div class="project-information">
+                        <h3 class="design-date">2019 • Toronto Cat Rescue • Volunteering</h3>
+                        <h1 class="design-title">Managing Cat Adoption</h1>
+                        <h1 class="design-description">Centralizing data and streamlining processes to help volunteers help cats</h1>
+                        <div class="tag_case_study">service design</div><div class="tag_case_study">user research</div><div class="tag_case_study">wireframing</div>
+                        <a href="tcr.html"><button type="button" class="design-read-study-btn">Read Case Study →</button></a>
+                      </div>
+                    </div>
+                  </div>
 
           <!--  FITTO -->
-           <div class="row design-row">
-             <a href="fitto.html">
-             <div id="design-project-2" class="col-md-6 project">
-               <img class="img-responsive" src="img/fitto.png" alt="">
-             </div>
-             </a>
+             <div onclick="location.href='fitto.html';" class="row design-row">
+               <div id="design-project-2" class="col-md-6 project-image-container">
+                 <img class="img-responsive project-image" src="img/fitto.png" alt="">
+               </div>
 
-             <div class="col-md-6">
-               <div class="project-information">
-                 <h3 class="design-date">Jan 2019<br></h3>
-                 <p class="design-title">Making communication between trainers and clients simpler during independent workouts.</p>
-                 <div class="tag_case_study">#visual design</div>
-                 <div class="tag_case_study">#interaction design</div>
-                 <div class="tag_case_study">#user research</div>
-                 <h5 class="design-description"></h5>
-                 <a href="fitto.html"><button type="button" class="design-read-study-btn">Read Case Study</button></a>
+
+               <div class="col-md-6">
+                 <div class="project-information">
+                   <h3 class="design-date">2019 • Shopify • Internship</h3>
+                   <h1 class="design-title">Remote Fitness Training</h1>
+                   <h1 class="design-description">Making communication between trainers and clients simpler during independent workouts</h1>
+                   <div class="tag_case_study">visual design</div><div class="tag_case_study">interaction design</div><div class="tag_case_study">user research</div>
+                   <a href="fitto.html"><button type="button" class="design-read-study-btn">Read Case Study →</button></a>
+                 </div>
                </div>
              </div>
-
-           </div>
 
            <!--  JOURNY -->
             <div class="row design-row">
@@ -114,89 +147,19 @@
               </div>
 
             </div>
-           <!--  FOE -->
-            <div class="row design-row">
-              <a href="foe.html">
-              <div id="design-project-2" class="col-md-6 project">
-                <img class="img-responsive" src="img/foe.png" alt="">
-              </div></a>
-
-              <div class="col-md-6">
-                <div class="project-information">
-                  <h3 class="design-date">Jul 2017<br></h3>
-                  <p class="design-title">Educating citizens about bee preservation, an app designed for Friends of the Earth Canada.</p>
-                  <div class="tag_case_study">#visual design</div>
-                  <div class="tag_case_study">#interaction design</div>
-                  <div class="tag_case_study">#user research</div>
-                  <h5 class="design-description"></h5>
-                  <a href="foe.html"><button type="button" class="design-read-study-btn">Read Case Study</button></a>
-                </div>
-              </div>
-            </div>
         </div>
       </div>
-
-  <br><br>
-
-
-
-      <div class="project-section-wrapper" id="art">
-        <h1 class="design-page-heading">Digital Art</h1>
-        <div class="row">
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/artwork/art-blackberry.png" alt="">
-          </div>
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/artwork/art-avocado.png" alt="">
-          </div>
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/artwork/art-watermelon.png" alt="">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/artwork/art-cake.png" alt="">
-          </div>
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/artwork/art-dragonfruit.png" alt="">
-          </div>
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/artwork/art-blueberry.png" alt="">
-          </div>
-        </div>
-        <div class="centered-button">
-          <a target="_blank" href="https://www.instagram.com/carols_canvas/"><button type="button" class="design-read-study-btn">See More Art</button></a>
-        </div>
-
+      <div class="contact-footer">
+        <h1 class="footer-header">Let's Connect</h1>
+        <h3 class="footer-description">I’d love to chat about anything - so let’s get some ☕</h3>
+        <p class="footer-links">
+          <a href="mailto:yaocarol96@gmail.com">Email</a>  &nbsp; • &nbsp;
+          <a target="_blank" href="resume.pdf">Resume</a>  &nbsp; •  &nbsp;
+          <a href="https://www.linkedin.com/in/carolyao/" target="_blank">LinkedIn</a> &nbsp; •&nbsp;
+          <a href="https://medium.com/@carolyao" target="_blank">Medium</a>
+        </p>
       </div>
-  <br><br><br><br>
 
-      <div class="project-section-wrapper">
-            <h1 class="design-page-heading">Card Making</h1>
-        <div class="row">
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/cards/card-1.JPG" alt="">
-          </div>
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/cards/card-2.JPG" alt="">
-          </div>
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/cards/card-3.JPG" alt="">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/cards/card-4.JPG" alt="">
-          </div>
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/cards/card-5.JPG" alt="">
-          </div>
-          <div class="col-md-4 art-project">
-            <img class="img-responsive" src="img/cards/card-6.JPG" alt="">
-          </div>
-        </div>
-      </div>
-      <p class="footer-text">Want to connect? Shoot me an <a href="mailto:yaocarol96@gmail.com">email</a>.</p>
   </div>
 </body>
 </html>

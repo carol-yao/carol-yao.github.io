@@ -115,10 +115,10 @@ h1.bold {
     display: inline-block;
     padding: 4px 8px;
   }
-  #shopify-case-study .tag_case_study {
+  /* #shopify-case-study .tag_case_study {
     color: #385525;
     background-color: #CFEDCB;
-  }
+  } */
   .design-read-study-btn {
     color: white;
     font-size: 12px;

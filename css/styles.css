@@ -16,15 +16,13 @@ h1.bold {
   font-weight: 700;
 }
 
-.description-main { /* TODO */
-  width: 81%;
-  width: 780px;
+.description-main {
+  max-width: 780px;
   padding-top: 100px;
   margin: auto;
 }
 
 .index-heading {
-  font-size: 1.75rem; /*TODO*/
   font-size: 28px;
   font-weight: 400;
 }
@@ -49,8 +47,8 @@ h1.bold {
   margin-bottom: 24px;
 }
 
-.project-section-wrapper { /* TODO */
-  width: 780px;
+.project-section-wrapper {
+  max-width: 780px;
   margin: auto;
   padding-top: 80px;
 }
@@ -251,7 +249,7 @@ a:hover, a:active, a:focus {
 }
 
 .intro-wrapper {
-  padding: 6.5em 100px 1em;
+  padding-top: 100px;
 }
 
 
@@ -495,11 +493,6 @@ a.project-tab-bar-current {
     margin-top: 88px;
   }
 
-  .intro-wrapper {
-    padding: 6.5em 3em 1em;
-  }
-
-
 
 }
 
@@ -547,14 +540,6 @@ a.project-tab-bar-current {
     margin-top: 88px;
   }
 
-  .intro-wrapper {
-    padding: 4em 3em 1em; /* change for responsive */
-  }
-
-  .project-section-wrapper {
-    padding: 1em 16px; /* change for responsive */
-  }
-
   .portfolio-tab-bar {
     text-align: center;
     margin: 8px 0 24px 0;
@@ -599,10 +584,6 @@ a.project-tab-bar-current {
 
 .bolder {
   font-weight: normal;
-}
-
-#design-section-container {
-  margin-top: 64px;
 }
 
 .line {

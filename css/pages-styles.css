@@ -1,7 +1,3 @@
-.container-fluid.case-study {
-  padding: 0 auto;
-}
-
 .case-study-section-container.case-study-center {
   text-align: center;
 }
@@ -16,12 +12,6 @@
 .case-study-section-info-container-image-below {
   padding-bottom: 0;
 }
-
-
-
-
-
-
 
 .case-study-section-container.alt-1 {
   background-color: #FDFDFD;
@@ -61,6 +51,17 @@
   font-size: 18px;
   line-height: 30px;
   color: #101010;
+}
+
+.case-study-list {
+  font-size: 18px;
+  line-height: 30px;
+  color: #101010;
+  padding: 16px;
+}
+
+.case-study-list li {
+  padding-bottom: 16px;
 }
 
 a.case-study-paragraph-link {
@@ -363,6 +364,18 @@ img.text-image-non-card-image {
     line-height: 24px;
 
   }
+
+  .case-study-list {
+    font-size: 16px;
+    line-height: 24px;
+    color: #101010;
+    padding: 16px;
+  }
+
+  .case-study-list li {
+    padding-bottom: 8px;
+  }
+
   .paragraph-spacing {
     padding: 4px;
   }

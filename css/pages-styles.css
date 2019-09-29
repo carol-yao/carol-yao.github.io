@@ -101,27 +101,7 @@ a.case-study-paragraph-link {
   padding: 24px;
 }
 
-/* 3 SECTION  */
-.case-study-three-section {
-  width: 80%;
-  margin: 0 auto;
-}
 
-.case-study-three-section-section-icon-size {
-  height: 20px;
-  display: inline-block;
-}
-
-.case-study-three-section-insight-title {
-  font-size: 20px;
-  font-weight: 700;
-  display: inline-block;
-}
-
-.case-study-three-section-insight-paragraph{
-  font-size: 16px;
-  font-weight: 400;
-}
 
 h1.case-study-large-header.extra-bottom-margin {
   padding-bottom: 32px;
@@ -168,6 +148,15 @@ div.case-study-wider-container { /* TODO */
   margin: 20px 0;
 }
 
+.text-image-card-grid {
+  padding: 24px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  width: 350px;
+  margin: 8px 8px;
+  display: inline-block;
+}
+
 .text-image-container {
   padding-bottom: 16px;
   display: flex;
@@ -184,13 +173,24 @@ div.case-study-wider-container { /* TODO */
   font-weight: 700;
   margin: 0;
   padding-left: 8px;
-
-
 }
-.text-image-card-paragraph {
+
+.text-image-card-paragraph,
+.text-image-card-paragraph-title,
+.text-image-card-paragraph-small {
   font-size: 16px;
   color: #555;
 }
+
+.text-image-card-paragraph-small {
+  font-size: 14px;
+}
+
+
+.text-image-card-paragraph-title {
+  margin-top: 24px;
+}
+
 
 .text-image-non-card-image {
   display: inline-block;
@@ -237,4 +237,8 @@ div.case-study-wider-container { /* TODO */
 
 .case-study-section-container.shopify-alt-light-green {
   background-color: #F3FFFC;
+}
+
+.case-study-section-container.tcr-alt-orange {
+  background-color: #FFF6ED;
 }

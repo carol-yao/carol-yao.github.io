@@ -80,8 +80,6 @@ h1.bold {
   }
 
   .project-information {
-    /* padding: 36px 0; */
-    /* padding-top: 24px; */
     padding: auto 0;
   }
 
@@ -389,13 +387,6 @@ a.project-tab-bar-current {
 
 /*  DESIGN PAGE STYLES */
 
-.design-page-heading {
-  font-weight: lighter;
-  padding-bottom: 24px;
-  font-size: 28px;
-}
-
-
 .portfolio-body, .case-study {
   width: 60%;
   margin-left:auto;
@@ -502,9 +493,6 @@ a.project-tab-bar-current {
   font-weight: lighter;
 }
 
-
-
-
 @media only screen and (max-width : 768px) {
 
   .portfolio-section {
@@ -515,9 +503,6 @@ a.project-tab-bar-current {
     width: 80%;
   }
 
-  .project-information {
-    padding: 1em 0 6em 0;
-  }
 
   /*  index.html */
   .about-heading {
@@ -543,20 +528,6 @@ a.project-tab-bar-current {
     padding: 0 24px;
     margin-top: 88px;
   }
-/*
-  .about-heading {
-    font-weight: lighter;
-    margin-bottom: 0;
-  }
-
-  .about-description {
-    font-size: 20px;
-    font-weight: lighter;
-  }
-
-  .about-heading, .design-page-heading {
-    font-size: 28px;
-  } */
 
   .intro-wrapper {
     padding: 6.5em 3em 1em;
@@ -621,13 +592,7 @@ a.project-tab-bar-current {
     padding: 0 8px;
     margin-top: 88px;
   }
-    /* .about-description {
-      font-size: 14px;
-      font-weight: lighter;
-    }
-    .about-heading, .design-page-heading {
-      font-size: 20px;
-    } */
+
   .intro-wrapper {
     padding: 4em 3em 1em; /* change for responsive */
   }

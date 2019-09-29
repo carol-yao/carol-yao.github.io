@@ -33,12 +33,23 @@
     p.index-description {
       font-size: 18px;
     }
+
+    .about-me-section {
+      padding: 88px 32px 32px;
+      max-width: none;
+    }
+
 }
 
 @media only screen and (max-width : 576px) {
   .intro-wrapper,
-  .project-section-wrapper {
+  .project-section-wrapper,
+  .about-me-section {
     padding: 16px;
+  }
+
+  img.profile-image {
+    width: 120px;
   }
 
   .index-heading {

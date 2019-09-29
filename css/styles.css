@@ -16,10 +16,14 @@ h1.bold {
   font-weight: 700;
 }
 
-.description-main {
+.description-main, .about-me-section {
   max-width: 780px;
   padding-top: 100px;
   margin: auto;
+}
+
+.about-me-section {
+  max-width: 600px;
 }
 
 .index-heading {
@@ -382,21 +386,6 @@ a.project-tab-bar-current {
 }
 
 
-
-/*  DESIGN PAGE STYLES */
-
-.about-me-body {
-  width: 60%;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-.about-me-section {
-  padding: 0 88px;
-  margin-top: 88px;
-}
-
-
 .portfolio-section {
   margin: 72px 0;
 }
@@ -477,22 +466,6 @@ a.project-tab-bar-current {
   .portfolio-section {
     margin: 56px 0;
   }
-
-/*  about.html*/
-
-  .about-me-section {
-    padding: 0 88px;
-    margin-top: 88px;
-  }
-  .about-me-body {
-    width: 80%;
-  }
-
-  .about-me-section {
-    padding: 0 24px;
-    margin-top: 88px;
-  }
-
 
 }
 
